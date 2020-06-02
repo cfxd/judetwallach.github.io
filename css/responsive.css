@@ -391,7 +391,7 @@ and (orientation:portrait) {
 
 	.mobilemenu ul {
 		left: 22%;
-		top: 63%;
+		top: 73%;
 	}
 
 	.readmore {
@@ -437,7 +437,7 @@ and (orientation:portrait) {
 	}
 
 	.aboutcontainer {
-		display: none;
+		display: block;
 	}
 
 	.flexcontainer {
@@ -485,7 +485,215 @@ and (orientation:portrait) {
     font-weight: normal;
     font-style: normal;
 }
-	
+
+.signup {
+	width: 80%;
+}
+
+.signup input {
+	font-size: 1rem;
+}
+
+.signup span {
+	font-size: .5rem;
+}
+
+#nomobile {
+	display: none;
+}
+
+.signup input[type="submit"] {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.mobilemenu li a {
+	font-size: 1.66rem;
+}
+
+
+
+}
+
+/* iPhone X */
+@media only screen 
+and (min-device-width:375px) 
+and (max-device-width:812px) 
+and (-webkit-min-device-pixel-ratio:3)
+and (orientation:portrait) {
+	.nav {
+		display: none;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.mobilenav {
+		display: inherit;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.abouttext p {
+		font-size: .95rem;
+	}
+
+	.hero {
+		background-position: bottom;
+		background-size: 100%;
+	}
+
+	.herotext {
+		top: 15%;
+		left: 50%;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.herotext img {
+		display: none;
+	}
+
+	.about {
+		background-image: none;
+	}
+
+	.aboutcontent p {
+		width: 100%;
+	}
+
+	.mobilemenu ul {
+		left: 23%;
+
+	}
+
+	#mobilemenu.showing {
+		height: 38%;
+	}
+
+	.mobilemenu li a {
+		font-size: .75rem;
+	}
+
+	.abouttext p {
+		font-size: ;
+	}
+
+	.signup h2 {
+		font-size: 4rem;
+	}
+
+
+
+}
+
+/* iPhone X */
+@media only screen 
+and (min-device-width:375px) 
+and (max-device-width:812px) 
+and (-webkit-min-device-pixel-ratio:3)
+and (orientation:portrait) {
+	.nav {
+		display: block;
+	}
+
+	.cinfo {
+		display: none;
+	}
+
+	.mobilenav {
+		display: inherit;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.abouttext p {
+		font-size: .95rem;
+	}
+
+	.hero {
+		background-position: bottom;
+		background-size: 100%;
+	}
+
+	.herotext {
+		top: 15%;
+		left: 50%;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.herotext img {
+		display: none;
+	}
+
+	.about {
+		background-image: none;
+	}
+
+	.aboutcontent p {
+		width: 100%;
+	}
+
+	.mobilemenu ul {
+		left: 23%;
+		top: 68%;
+	}
+
+	#mobilemenu.showing {
+		height: 38%;
+	}
+
+	.mobilemenu li a {
+		font-size: 2rem;
+	}
+
+	.abouttext p {
+		font-size: ;
+	}
+
+	.signup h2 {
+		font-size: 4rem;
+	}
+
+	.abouttext p {
+		font-size: 1rem;
+	}
+
+	.aboutcontainer {
+		height: 85vh;
+	}
+
+		.nav {
+		display: none;
+	}
 
 }
 
@@ -532,12 +740,12 @@ and (-webkit-min-device-pixel-ratio:2) {
 	}
 
 	.mobilemenu ul {
-		left: 17.5%;
+		left: 15%;
 		top: 55%;
 	}
 
 	.mobilemenu li a {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 
 	.clothingtypes {
@@ -596,7 +804,96 @@ and (-webkit-min-device-pixel-ratio:2) {
 		width: 45%;
 	}
 
+	.abouttext p {
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+	}
+
+}	
+
+/* Portrait large phones */
+@media only screen 
+and (min-device-width:414px) 
+and (max-device-width:736px) 
+and (-webkit-min-device-pixel-ratio:3)
+and (orientation:portrait) {
+	.catitem {
+		width: 160px;
+		height: 160px;
+	}
+
+	.collectioninfo {
+		height: auto;
+	}
+
+	.brand {
+		margin-top: 2.5rem;
+	}
+
+	p {
+		font-size: .9rem;
+	}
+
+	.mobilemenu ul {
+		left: 20%;
+		top: 67%;
+	}
+
+	.mobilemenu li a {
+		font-size: 2.75rem;
+	}
+
+
+
+	.cinfo {
+		display: none;
+	}
+
+	.flexcontainer {
+		flex-flow: column;
+	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext {
+		flex: 1;
+	}
+
+	.abouttext p {
+		font-size: 0rem;
+		line-height: 20px;
+	}
+
+		h1 {
+		font-size: 2rem;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: bold;
+    font-style: normal;
+    line-height: 40px;
+	}
+
+	.abouttext p {
+		font-size: 1rem;
+	}
+
+	.aboutcontainer {
+		height: 80vh;
+	}
+
+	.mobilemenu li a {
+		font-size: 2rem;
+	}
+
+	.nav {
+		display: none;
+	}
+
+
 }
+
 
 /* Portrait Tablets */
 @media only screen 
@@ -611,6 +908,7 @@ and (-webkit-min-device-pixel-ratio:2) {
 
 	.about {
 		padding-top: 35%;
+		display: none;
 	}
 
 	.aboutcontent p {
@@ -619,11 +917,11 @@ and (-webkit-min-device-pixel-ratio:2) {
 	}
 
 	.mobilemenu li a {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.mobilemenu ul {
-		left: 23%;
+		left: 20%;
 	}
 
 	.catitem {
@@ -721,8 +1019,23 @@ and (-webkit-min-device-pixel-ratio:2) {
 	}
 
 	.abouttext {
-		padding-top: 1rem;
+		padding-top: 3rem;
+		flex: 1;
 	}
+
+	.emptycontainer {
+		display: none;
+	}
+
+	.abouttext p {
+		font-size: 1.4rem;
+		line-height: 30px;
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+	}
+}
+
 
 	/* Portrait tablet computers */
 	@media only screen 
@@ -765,11 +1078,11 @@ and (-webkit-min-device-pixel-ratio:2) {
 		}
 
 		.mobilemenu ul {
-			left: 22.5%;
+			left: 19%;
 		}
 
 		.mobilemenu li a {
-			font-size: 4rem;
+			font-size: 3.75rem;
 		}
 
 		.aboutcontent {
@@ -823,17 +1136,26 @@ and (-webkit-min-device-pixel-ratio:2) {
 		}
 
 		.abouttext p {
-			font-size: 1.6rem;
-			line-height: 28px;
+			font-size: 1.75rem;
+			line-height: 35px;
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 		}
 
 		.abouttext {
-			padding-top: 2rem;
+			padding-top: 4rem;
+		}
+
+		.aboutcontainer {
+			height: 50vh;
 		}
 
 	}
 
-	/* Landscape large tablets */
+
+
+/* Landscape large tablets */
 	@media only screen 
 	and (min-device-width:1366px) 
 	and (max-device-width:1366px) 
@@ -879,181 +1201,36 @@ and (-webkit-min-device-pixel-ratio:2) {
 		}
 
 		.catitem {
-			width: 280px;
-		}
-
-		.catname {
-			width: 280px;
-		}
-
-		.collectioninfo {
-			padding-top: .75rem;
-		}
-
-	}
-
-	/* ----------- Average Laptops ----------- */
-	@media screen 
-	and (min-device-width:1200px) 
-	and (max-device-width:1600px) 
-	and (-webkit-min-device-pixel-ratio:1) {
-		.catitem {
-			display: none;
+			width: 180px;
+			height: 180px;
 		}
 
 		.catname {
 			width: 180px;
 		}
 
-		body {
-			display: none;
+		.collectioninfo {
+			padding-top: .75rem;
 		}
 
-		.collection {
-			display: none;
-		}
-
-
-	}
-
-/* Portrait large phones */
-@media only screen 
-and (min-device-width:414px) 
-and (max-device-width:736px) 
-and (-webkit-min-device-pixel-ratio:3)
-and (orientation:portrait) {
-	.catitem {
-		width: 160px;
-		height: 160px;
-	}
-
-	.collectioninfo {
-		height: auto;
-	}
-
-	.brand {
-		margin-top: 2.5rem;
-	}
-
-	p {
-		font-size: .9rem;
-	}
-
-	.mobilemenu ul {
-		left: 20%;
-	}
-
-	.mobilemenu li a {
-		font-size: 4rem;
-	}
-
-	.cinfo {
-		display: none;
-	}
-
-	.flexcontainer {
-		flex-flow: column;
-	}
-
-	.emptycontainer {
-		display: none;
-	}
-
-	.abouttext {
-		flex: 1;
-	}
-
-	.abouttext p {
-		font-size: 1rem;
-		line-height: 20px;
-	}
-
-		h1 {
-		font-size: 2rem;
-		    font-family: 'HelveticaNowDisplay';
-    font-weight: bold;
+		.abouttext p {
+			    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
     font-style: normal;
-    line-height: 40px;
+    font-size: 1.5rem;
+    line-height: 30px;
+		}
+
 	}
 
-
-
-}
-
-/* iPhone X */
-@media only screen 
-and (min-device-width:375px) 
-and (max-device-width:812px) 
-and (-webkit-min-device-pixel-ratio:3)
-and (orientation:portrait) {
-	.nav {
-		display: none;
-	}
-
-	.cinfo {
-		display: none;
-	}
-
-	.mobilenav {
-		display: inherit;
-	}
-
-	.flexcontainer {
-		flex-flow: column;
-	}
-
-	.emptycontainer {
-		display: none;
-	}
-
-	.abouttext {
-		flex: 1;
-	}
-
+/*Laptops*/
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  
+{
 	.abouttext p {
-		font-size: .95rem;
+		font-size: 1.2rem;
+		line-height: 28px;
 	}
+} 
 
-	.hero {
-		background-position: bottom;
-		background-size: 100%;
-	}
-
-	.herotext {
-		top: 15%;
-		left: 50%;
-	}
-
-	h1 {
-		font-size: 3rem;
-	}
-
-	.herotext img {
-		display: none;
-	}
-
-	.about {
-		background-image: none;
-	}
-
-	.aboutcontent p {
-		width: 100%;
-	}
-
-	.mobilemenu ul {
-		left: 23%;
-	}
-
-	#mobilemenu.showing {
-		height: 38%;
-	}
-
-	.mobilemenu li a {
-		font-size: 1.75rem;
-	}
-
-	.abouttext p {
-		font-size: 2rem!important;
-	}
-
-}

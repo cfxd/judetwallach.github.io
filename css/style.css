@@ -338,19 +338,20 @@ button span {
 	font-family: 'Helvetica Now Display';
 	font-weight: normal;
 	width: 95%;
+	font-size: 
 }
 
 p {
 	font-family: 'Helvetica Now Display', arial, sans-serif;
 	font-weight: normal;
 	line-height: 26px;
-	font-size: 1.125rem;
+	font-size: 1rem;
 }
 
 .aboutcontent p {
 	width: 40%;
 	font-size: 1.25rem;
-	margin-top: 2rem;
+	margin-top: 0rem;
 }
 
 .categories {
