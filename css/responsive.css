@@ -195,11 +195,6 @@ and (orientation:portrait) {
 		display: none;
 	}
 
-	.heroposition h1 {
-    font-family: 'HelveticaNowDisplay';
-    font-weight: bold;
-    font-style: normal;
-	}
 
 	.flexcontainer {
 		flex-flow: column;
@@ -400,6 +395,9 @@ and (orientation:portrait) {
 
 	h1 {
 		font-size: 2rem;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: bold;
+    font-style: normal;
 	}
 
 	
