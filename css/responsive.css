@@ -401,6 +401,35 @@ and (orientation:portrait) {
     line-height: 40px;
 	}
 
+	.signup h2 {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: bold;
+    font-style: normal;
+	}
+
+	.signup input {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+	}
+
+	.mobilesearch input::placeholder {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo input::placeholder {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.signup span {
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+}
 	
 
 }
@@ -882,6 +911,14 @@ and (orientation:portrait) {
 	.abouttext p {
 		font-size: 1rem;
 		line-height: 20px;
+	}
+
+		h1 {
+		font-size: 2rem;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: bold;
+    font-style: normal;
+    line-height: 40px;
 	}
 
 
