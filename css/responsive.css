@@ -495,6 +495,7 @@ and (orientation:portrait) {
 	    font-family: 'HelveticaNowDisplay';
     font-weight: normal;
     font-style: normal;
+    border-radius: 0;
 }
 
 .signup span {
@@ -511,6 +512,7 @@ and (orientation:portrait) {
     font-style: normal;
     font-size: 2rem;
     -webkit-appearance: none;
+    border-radius: 0;
 }
 
 .mobilemenu li a {
