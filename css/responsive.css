@@ -462,6 +462,10 @@ and (orientation:portrait) {
     font-style: normal;
 	}
 
+	form {
+		margin-top: .5rem;
+	}
+
 	.signup input {
     font-family: 'HelveticaNowDisplay';
     font-weight: normal;
