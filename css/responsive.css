@@ -460,6 +460,7 @@ and (orientation:portrait) {
     font-family: 'HelveticaNowDisplay';
     font-weight: bold;
     font-style: normal;
+    margin-top: 0;
 	}
 
 	form {
@@ -543,7 +544,9 @@ and (orientation:portrait) {
     font-weight: normal;
     font-style: normal;
 	}
-
+	#closeform {
+		width: 20px;
+	}
 }
 
 /* iPhone X */
