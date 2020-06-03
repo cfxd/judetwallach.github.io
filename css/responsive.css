@@ -514,7 +514,7 @@ and (orientation:portrait) {
 }
 
 	.abouttext p {
-		font-size: .93rem;
+		font-size: .8rem;
 		line-height: 20px;
     font-family: 'HelveticaNowDisplay';
     font-weight: normal;
@@ -1261,7 +1261,7 @@ and (max-width: 1605px)
 	.abouttext p {
 		font-size: 1.2rem;
 		line-height: 28px;
-		
+
 	}
 } 
 
