@@ -468,7 +468,7 @@ and (orientation:portrait) {
     font-style: normal;
 	}
 
-	.signup input[type="text"]::placeholder {
+	.signup input::placeholder {
 		    font-family: 'HelveticaNowDisplay', arial, sans-serif;
     font-weight: normal;
     font-style: normal;
