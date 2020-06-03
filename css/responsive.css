@@ -88,6 +88,9 @@ and (orientation:portrait) {
 	.abouttext p {
 		font-size: .63rem;
 		line-height: 13px;
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.abouttext {
@@ -426,6 +429,9 @@ and (orientation:portrait) {
 	.abouttext p {
 		font-size: .93rem;
 		line-height: 20px;
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.aboutcontainer {
@@ -549,6 +555,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: .95rem;
+	    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.hero {
@@ -592,6 +601,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: ;
+	    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.signup h2 {
@@ -634,6 +646,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: .95rem;
+	    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.hero {
@@ -677,6 +692,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: ;
+	    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.signup h2 {
@@ -685,6 +703,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: 1rem;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.aboutcontainer {
@@ -865,6 +886,9 @@ and (orientation:portrait) {
 	.abouttext p {
 		font-size: 0rem;
 		line-height: 20px;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 		h1 {
@@ -877,6 +901,9 @@ and (orientation:portrait) {
 
 	.abouttext p {
 		font-size: 1rem;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.aboutcontainer {
@@ -1016,6 +1043,9 @@ and (-webkit-min-device-pixel-ratio:2) {
 	.abouttext p {
 		font-size: 1.1rem;
 		line-height: 24px;
+		    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
 	}
 
 	.abouttext {
@@ -1231,6 +1261,7 @@ and (max-width: 1605px)
 	.abouttext p {
 		font-size: 1.2rem;
 		line-height: 28px;
+		
 	}
 } 
 
