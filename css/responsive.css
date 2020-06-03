@@ -498,6 +498,12 @@ and (orientation:portrait) {
     border-radius: 0;
 }
 
+.signup input[type="text"] {
+    font-family: 'HelveticaNowDisplay', arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 .signup span {
 	font-size: .5rem;
 }
