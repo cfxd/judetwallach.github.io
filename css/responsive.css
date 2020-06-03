@@ -426,13 +426,7 @@ and (orientation:portrait) {
 		display: block;
 	}
 
-	.abouttext p {
-		font-size: .93rem;
-		line-height: 20px;
-    font-family: 'HelveticaNowDisplay';
-    font-weight: normal;
-    font-style: normal;
-	}
+
 
 	.aboutcontainer {
 		height: 88vh;
@@ -519,7 +513,13 @@ and (orientation:portrait) {
 	font-size: 1.66rem;
 }
 
-
+	.abouttext p {
+		font-size: .93rem;
+		line-height: 20px;
+    font-family: 'HelveticaNowDisplay';
+    font-weight: normal;
+    font-style: normal;
+	}
 
 }
 
